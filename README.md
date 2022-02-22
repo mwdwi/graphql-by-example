@@ -17,7 +17,8 @@ In a GraphQL API, we shape our data within a strictly typed schema, telling it h
 
 GraphQL is data source agnostic.
 
-gambar
+![gql2](https://user-images.githubusercontent.com/85268031/155049912-361cd5af-9d5a-45ee-9e1f-8e4f4e4fa8bb.png)
+
 
 ## Served over HTTP
 GraphQL is typically served over HTTP. This means operations are just plain ol’ strings, and we don’t need a special tool to query data from a GraphQL server.
@@ -29,4 +30,5 @@ On the server, we create a GraphQL schema based on the data we need to build our
 ### Connect your resolvers to data sources
 For each type, we write the resolver functions, connecting the data to our graph. Perhaps we get the Job data from an external API. And maybe we get the Location data from the Google Maps API.
 
-gambar
+![gql3](https://user-images.githubusercontent.com/85268031/155049929-fdaa9436-1e32-4cbc-94b4-a5f465ab234e.png)
+
